@@ -6,8 +6,8 @@
 			"title": "Two Year Vacation @ Bar Robusta",
 			"url": "https://www.facebook.com/events/1199737493372484/",
 			"class": "event-warning",
-			"start": "1462938400000",
-			"end":   "1363197686300"
+			"start": "1460791600000",
+			"end":   "1460791900000"
 		},
 		{
 			"id": "256",
