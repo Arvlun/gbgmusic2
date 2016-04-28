@@ -7,7 +7,11 @@
 		view: 'month',
 		tmpl_path: 'tmpls/',
 		tmpl_cache: false,
+<<<<<<< HEAD
 		day: '2016-06-01',
+=======
+		day: '2016-05-20',
+>>>>>>> origin/master
 		onAfterEventsLoad: function(events) {
 			if(!events) {
 				return;
