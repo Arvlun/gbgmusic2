@@ -73,23 +73,7 @@
             "start": "1364320800000",
             "end": "1364407286400"
         },
-        {
-            "id": "234",
-            "title": "wwfds",
-            "url": "fdsfds",
-            "class": "fddfdsf",
-            "location": "fdsdsf",
-            "bandname": "fdfd",
-            "price": "23",
-<<<<<<< Updated upstream
-            "start": "1462483380000",
-            "end": "1462569840000"
-        },
 
-=======
-            "start": "1462022580000",
-            "end": "1462029840000"
-        },
         {
             "id": "69",
             "title": "Happy Mondays",
@@ -112,6 +96,6 @@
             "start": "000",
             "end": "000"
         }
->>>>>>> Stashed changes
     ]
+
 }
