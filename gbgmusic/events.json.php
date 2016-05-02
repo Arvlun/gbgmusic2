@@ -33,6 +33,17 @@
             "price": "23",
             "start": "1462022580000",
             "end": "1462029840000"
+        },
+        {
+            "id": "12344",
+            "title": "Fest",
+            "url": "",
+            "class": "event-warning",
+            "location": "",
+            "bandname": "",
+            "price": "100",
+            "start": "1463146200000",
+            "end": "1463151600000"
         }
     ]
 }
