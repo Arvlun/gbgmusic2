@@ -34,7 +34,40 @@
 	<div class="page-header">
 
 		<div class="pull-right form-inline">
-			<a href=form.html class="btn btn-success" role="button">add</a>
+			<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Add
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Add event</h4>
+      </div>
+      <div class="modal-body">
+        <form action="saveform.php" method="post">
+			id: <input type="text" name="id"><br>
+			title: <input type="text" name="title"><br>
+			url: <input type="text" name="url"><br>
+			class: <input type="text" name="class"><br>
+			location: <input type="text" name="location"><br>
+			bandname: <input type="text" name="bandname"><br>
+			price: <input type="text" name="price"><br>
+			start: <input type="datetime-local" name="start"><br>
+			end: <input type="datetime-local" name="end"><br>
+			<input type="submit">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 			<div class="btn-group">
 				<button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
 				<button class="btn btn-default" data-calendar-nav="today">Today</button>
