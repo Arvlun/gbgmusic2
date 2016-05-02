@@ -74,6 +74,7 @@
             "end": "1364407286400"
         },
         {
+<<<<<<< HEAD
             "id": "23",
             "title": "k",
             "url": "k",
@@ -81,9 +82,20 @@
             "location": "k",
             "bandname": "k",
             "price": "k",
+=======
+            "id": "234",
+            "title": "wwfds",
+            "url": "fdsfds",
+            "class": "fddfdsf",
+            "location": "fdsdsf",
+            "bandname": "fdfd",
+            "price": "23",
+<<<<<<< Updated upstream
+>>>>>>> origin/master
             "start": "1462483380000",
             "end": "1462483440000"
         },
+<<<<<<< HEAD
         {
             "id": "234",
             "title": "kk",
@@ -95,5 +107,35 @@
             "start": "1463261040000",
             "end": "1463261040000"
         }
+=======
+
+=======
+            "start": "1462022580000",
+            "end": "1462029840000"
+        },
+        {
+            "id": "69",
+            "title": "Happy Mondays",
+            "url": "",
+            "class": "Rock",
+            "location": "Pustervik",
+            "bandname": "Happy Mondays",
+            "price": "200",
+            "start": "1464811200000",
+            "end": "1464818400000"
+        },
+        {
+            "id": null,
+            "title": null,
+            "url": null,
+            "class": null,
+            "location": null,
+            "bandname": null,
+            "price": null,
+            "start": "000",
+            "end": "000"
+        }
+>>>>>>> Stashed changes
+>>>>>>> origin/master
     ]
 }
