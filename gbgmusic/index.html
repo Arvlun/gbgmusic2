@@ -1,167 +1,167 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>GBGmusic</title>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>GBGmusic</title>
 
-	<meta name="description" content="Gothenburg Music">
-	<meta name="keywords" content="jQuery,Bootstrap,Calendar,HTML,CSS,JavaScript,responsive,month,week,year,day">
-	<meta name="author" content="Serhioromano">
-	<meta charset="UTF-8">
+		<meta name="description" content="Gothenburg Music">
+		<meta name="keywords" content="jQuery,Bootstrap,Calendar,HTML,CSS,JavaScript,responsive,month,week,year,day">
+		<meta name="author" content="Serhioromano">
+		<meta charset="UTF-8">
 
-	<link rel="stylesheet" href="components/bootstrap3/css/bootstrap.css">
-	<link rel="stylesheet" href="components/bootstrap3/css/bootstrap-theme.css">
-	<link rel="stylesheet" href="css/calendar.css">
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="components/bootstrap3/css/bootstrap.css">
+		<link rel="stylesheet" href="components/bootstrap3/css/bootstrap-theme.css">
+		<link rel="stylesheet" href="css/calendar.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
-<div class="container">
-	<div class="jumbotron">
-		<center><h1>GBG MUSIC</h1>
+	</head>
+	<body>
+	<div class="container">
+		<div class="jumbotron">
+			<center><h1>GBG MUSIC</h1>
 
-		<h4>ALL GOTHENBURG'S MUSIC IN ONE PLACE</h4></center>
-	</div>
-
-	<div class="page-header">
-
-		<div class="pull-right form-inline">
-
-			<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-default" data-toggle="modal" data-target="#myModal">
-  Lägg till event
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Lägg till event</h4>
-      </div>
-      <div class="modal-body">
-        <form action="saveform.php" method="post">
-			id: <input type="text" name="id"><br>
-			title: <input type="text" name="title"><br>
-			url: <input type="text" name="url"><br>
-			class: <input type="text" name="class"><br>
-			location: <input type="text" name="location"><br>
-			bandname: <input type="text" name="bandname"><br>
-			price: <input type="text" name="price"><br>
-			start: <input type="datetime-local" name="start"><br>
-			end: <input type="datetime-local" name="end"><br>
-			<input type="submit">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-			<div class="btn-group">
-				<button class="btn btn-default" data-calendar-nav="prev"><< Tidigare</button>
-				<button class="btn btn-default" data-calendar-nav="today">Idag</button>
-				<button class="btn btn-default" data-calendar-nav="next">Kommande >></button>
-			</div>
-			<div class="btn-group">
-				<button class="btn btn-default" data-calendar-view="year">År</button>
-				<button class="btn btn-default active" data-calendar-view="month">Månad</button>
-				<button class="btn btn-default" data-calendar-view="week">Vecka</button>
-				<button class="btn btn-default" data-calendar-view="day">Dag</button>
-			</div>
+			<h4>ALL GOTHENBURG'S MUSIC IN ONE PLACE</h4></center>
 		</div>
 
-		<h3></h3>
-		
+		<div class="page-header">
+
+			<div class="pull-right form-inline">
+
+				<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-default" data-toggle="modal" data-target="#myModal">
+	  Lägg till event
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Lägg till event</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form action="saveform.php" method="post">
+				id: <input type="text" name="id"><br>
+				title: <input type="text" name="title"><br>
+				url: <input type="text" name="url"><br>
+				class: <input type="text" name="class"><br>
+				location: <input type="text" name="location"><br>
+				bandname: <input type="text" name="bandname"><br>
+				price: <input type="text" name="price"><br>
+				start: <input type="datetime-local" name="start"><br>
+				end: <input type="datetime-local" name="end"><br>
+				<input type="submit">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
 	</div>
 
-	<div class="row">
-		<div class="col-md-9">
-			<div id="calendar"></div>
-		</div>
-		<div class="col-md-3">
-			<div class="row">
-				<select id="language" class="form-control">
-					<option value="">Välj språk</option>
-					<option value="bg-BG">Bulgarian</option>
-					<option value="nl-NL">Dutch</option>
-					<option value="fr-FR">French</option>
-					<option value="de-DE">German</option>
-					<option value="el-GR">Greek</option>
-					<option value="hu-HU">Hungarian</option>
-					<option value="id-ID">Bahasa Indonesia</option>
-					<option value="it-IT">Italian</option>
-					<option value="pl-PL">Polish</option>
-					<option value="pt-BR">Portuguese (Brazil)</option>
-					<option value="ro-RO">Romania</option>
-					<option value="es-CO">Spanish (Colombia)</option>
-					<option value="es-MX">Spanish (Mexico)</option>
-					<option value="es-ES">Spanish (Spain)</option>
-					<option value="ru-RU">Russian</option>
-					<option value="sk-SR">Slovak</option>
-					<option value="sv-SE">Swedish</option>
-					<option value="ko-KR">Korean</option>
-					<option value="zh-TW">繁體中文</option>
-					<option value="th-TH">Thai (Thailand)</option>
-				</select>
-			</div>
-
-			<h4>Events</h4>
-			<small>This list is populated with events dynamically</small>
-			<ul id="eventlist" class="nav nav-list"></ul>
-		</div>
-	</div>
-
-	<div class="clearfix"></div>
-	<br><br>
-	<div id="disqus_thread"></div>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-	<div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3 class="modal-title">Spelning</h3>
+				<div class="btn-group">
+					<button class="btn btn-default" data-calendar-nav="prev"><< Tidigare</button>
+					<button class="btn btn-default" data-calendar-nav="today">Idag</button>
+					<button class="btn btn-default" data-calendar-nav="next">Kommande >></button>
 				</div>
-				<div class="modal-body" style="height: 600px">
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<div class="btn-group">
+					<button class="btn btn-default" data-calendar-view="year">År</button>
+					<button class="btn btn-default active" data-calendar-view="month">Månad</button>
+					<button class="btn btn-default" data-calendar-view="week">Vecka</button>
+					<button class="btn btn-default" data-calendar-view="day">Dag</button>
 				</div>
 			</div>
-		</div>
-	</div>
 
-	<script type="text/javascript" src="components/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="components/underscore/underscore-min.js"></script>
-	<script type="text/javascript" src="components/bootstrap3/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="components/jstimezonedetect/jstz.min.js"></script>
-	<script type="text/javascript" src="js/language/bg-BG.js"></script>
-	<script type="text/javascript" src="js/language/nl-NL.js"></script>
-	<script type="text/javascript" src="js/language/fr-FR.js"></script>
-	<script type="text/javascript" src="js/language/de-DE.js"></script>
-	<script type="text/javascript" src="js/language/el-GR.js"></script>
-	<script type="text/javascript" src="js/language/it-IT.js"></script>
-	<script type="text/javascript" src="js/language/hu-HU.js"></script>
-	<script type="text/javascript" src="js/language/pl-PL.js"></script>
-	<script type="text/javascript" src="js/language/pt-BR.js"></script>
-	<script type="text/javascript" src="js/language/ro-RO.js"></script>
-	<script type="text/javascript" src="js/language/es-CO.js"></script>
-	<script type="text/javascript" src="js/language/es-MX.js"></script>
-	<script type="text/javascript" src="js/language/es-ES.js"></script>
-	<script type="text/javascript" src="js/language/ru-RU.js"></script>
-	<script type="text/javascript" src="js/language/sk-SR.js"></script>
-	<script type="text/javascript" src="js/language/sv-SE.js"></script>
-	<script type="text/javascript" src="js/language/zh-TW.js"></script>
-	<script type="text/javascript" src="js/language/cs-CZ.js"></script>
-	<script type="text/javascript" src="js/language/ko-KR.js"></script>
-	<script type="text/javascript" src="js/language/id-ID.js"></script>
-	<script type="text/javascript" src="js/language/th-TH.js"></script>
-	<script type="text/javascript" src="js/calendar.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-</div>
-</body>
-</html>
+			<h3></h3>
+			
+		</div>
+
+		<div class="row">
+			<div class="col-md-9">
+				<div id="calendar"></div>
+			</div>
+			<div class="col-md-3">
+				<div class="row">
+					<select id="language" class="form-control">
+						<option value="">Välj språk</option>
+						<option value="bg-BG">Bulgarian</option>
+						<option value="nl-NL">Dutch</option>
+						<option value="fr-FR">French</option>
+						<option value="de-DE">German</option>
+						<option value="el-GR">Greek</option>
+						<option value="hu-HU">Hungarian</option>
+						<option value="id-ID">Bahasa Indonesia</option>
+						<option value="it-IT">Italian</option>
+						<option value="pl-PL">Polish</option>
+						<option value="pt-BR">Portuguese (Brazil)</option>
+						<option value="ro-RO">Romania</option>
+						<option value="es-CO">Spanish (Colombia)</option>
+						<option value="es-MX">Spanish (Mexico)</option>
+						<option value="es-ES">Spanish (Spain)</option>
+						<option value="ru-RU">Russian</option>
+						<option value="sk-SR">Slovak</option>
+						<option value="sv-SE">Swedish</option>
+						<option value="ko-KR">Korean</option>
+						<option value="zh-TW">繁體中文</option>
+						<option value="th-TH">Thai (Thailand)</option>
+					</select>
+				</div>
+
+				<h4>Events</h4>
+				<small>This list is populated with events dynamically</small>
+				<ul id="eventlist" class="nav nav-list"></ul>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+		<br><br>
+		<div id="disqus_thread"></div>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+		<div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h3 class="modal-title">Spelning</h3>
+					</div>
+					<div class="modal-body" style="height: 600px">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="components/underscore/underscore-min.js"></script>
+		<script type="text/javascript" src="components/bootstrap3/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="components/jstimezonedetect/jstz.min.js"></script>
+		<script type="text/javascript" src="js/language/bg-BG.js"></script>
+		<script type="text/javascript" src="js/language/nl-NL.js"></script>
+		<script type="text/javascript" src="js/language/fr-FR.js"></script>
+		<script type="text/javascript" src="js/language/de-DE.js"></script>
+		<script type="text/javascript" src="js/language/el-GR.js"></script>
+		<script type="text/javascript" src="js/language/it-IT.js"></script>
+		<script type="text/javascript" src="js/language/hu-HU.js"></script>
+		<script type="text/javascript" src="js/language/pl-PL.js"></script>
+		<script type="text/javascript" src="js/language/pt-BR.js"></script>
+		<script type="text/javascript" src="js/language/ro-RO.js"></script>
+		<script type="text/javascript" src="js/language/es-CO.js"></script>
+		<script type="text/javascript" src="js/language/es-MX.js"></script>
+		<script type="text/javascript" src="js/language/es-ES.js"></script>
+		<script type="text/javascript" src="js/language/ru-RU.js"></script>
+		<script type="text/javascript" src="js/language/sk-SR.js"></script>
+		<script type="text/javascript" src="js/language/sv-SE.js"></script>
+		<script type="text/javascript" src="js/language/zh-TW.js"></script>
+		<script type="text/javascript" src="js/language/cs-CZ.js"></script>
+		<script type="text/javascript" src="js/language/ko-KR.js"></script>
+		<script type="text/javascript" src="js/language/id-ID.js"></script>
+		<script type="text/javascript" src="js/language/th-TH.js"></script>
+		<script type="text/javascript" src="js/calendar.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</div>
+	</body>
+	</html>
