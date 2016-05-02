@@ -22,6 +22,17 @@
             "price": "23",
             "start": "1463173260000",
             "end": "1463173320000"
+        },
+        {
+            "id": "8764",
+            "title": "KAJSA FYLLER \u00c5R",
+            "url": "",
+            "class": "event-warning",
+            "location": "Livet",
+            "bandname": "Kajsas band",
+            "price": "dyrt",
+            "start": "1464163200000",
+            "end": "1464134400000"
         }
     ]
 }
