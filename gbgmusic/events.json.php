@@ -84,27 +84,6 @@
             "start": "1462483380000",
             "end": "1462569840000"
         },
-        {
-            "id": "23",
-            "title": "dsfds",
-            "url": "dsfs",
-            "class": "event-success",
-            "location": "dffd",
-            "bandname": "fdfd",
-            "price": "23",
-            "start": "1463088180000",
-            "end": "1463088240000"
-        },
-        {
-            "id": "8764",
-            "title": "KAJSA FYLLER \u00c5R",
-            "url": "",
-            "class": "event-warning",
-            "location": "Livet",
-            "bandname": "Kajsas band",
-            "price": "dyrt",
-            "start": "1464163200000",
-            "end": "1464134400000"
-        }
+
     ]
 }
