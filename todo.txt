@@ -1,0 +1,20 @@
+Snygga till:
+Form
+Knappar(?)
+Ta bort onödiga saker
+
+
+lägga till genrer och plutt färger (ändras i .css filerna)
+
+byta standard språk
+
+Arvid L: lägga till sökfunktion
+
+lägga till sorting efter genre
+
+välja genre när man skapar event - rull lista
+
+lägg ändra funktion i modal när mna trycker på ett event
+
+ändra save-modal så att knapparna är vettiga
+
