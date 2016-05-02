@@ -35,5 +35,5 @@ $data['result'] = $newpost;*/
 //print_r($data);
 file_put_contents('events.json.php', json_encode($data, JSON_PRETTY_PRINT));  
 
-//header("Location: index.html",TRUE,302);      
+header("Location: index.html",TRUE,302);      
 ?>
