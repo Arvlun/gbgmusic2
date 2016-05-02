@@ -2,7 +2,7 @@
 
 //$start=$_POST['start'];
 //echo strtotime($start), "000\n";
-date_default_timezone_set("Sweden/Stockholm");
+date_default_timezone_set("Europe/Stockholm");
 $json = file_get_contents('events.json.php');
 $data = json_decode($json, true);
 $starttime = strtotime($_POST['start'])."000";
