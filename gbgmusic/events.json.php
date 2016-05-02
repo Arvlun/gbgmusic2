@@ -81,9 +81,37 @@
             "location": "fdsdsf",
             "bandname": "fdfd",
             "price": "23",
+<<<<<<< Updated upstream
             "start": "1462483380000",
             "end": "1462569840000"
         },
 
+=======
+            "start": "1462022580000",
+            "end": "1462029840000"
+        },
+        {
+            "id": "69",
+            "title": "Happy Mondays",
+            "url": "",
+            "class": "Rock",
+            "location": "Pustervik",
+            "bandname": "Happy Mondays",
+            "price": "200",
+            "start": "1464811200000",
+            "end": "1464818400000"
+        },
+        {
+            "id": null,
+            "title": null,
+            "url": null,
+            "class": null,
+            "location": null,
+            "bandname": null,
+            "price": null,
+            "start": "000",
+            "end": "000"
+        }
+>>>>>>> Stashed changes
     ]
 }
