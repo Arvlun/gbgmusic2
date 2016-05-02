@@ -18,5 +18,6 @@ array_push($data['result'], array(
       'start'=> $starttime,
       'end'=> $endtime));
 file_put_contents('events.json.php', json_encode($data, JSON_PRETTY_PRINT));	
-	
+
+header("Location: index.html",TRUE,302);	
 ?>
