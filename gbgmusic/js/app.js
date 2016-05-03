@@ -2,7 +2,6 @@
 
 	"use strict";
 	var options = {
-		language : 'sv-SE',
 		events_source: 'events.json.php',
 		view: 'month',
 		tmpl_path: 'tmpls/',
