@@ -6,7 +6,7 @@ Ta bort onödiga saker
 
 lägga till genrer och plutt färger (ändras i .css filerna)
 
-byta standard språk
+byta standard språk - Arvid V jobbar pŒ detta.. har kontakt med en snubbe som hjŠlper tillÉ
 
 Arvid L: lägga till sökfunktion
 
