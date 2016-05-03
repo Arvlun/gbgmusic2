@@ -300,6 +300,9 @@
 #cal-day-box .day-highlight.dh-event-pop {
   border: 1px solid #FFC0CB;
 }
+#cal-day-box .day-highlight.dh-event-rock {
+  border: 1px solid #000000;
+}
 #cal-day-box .day-highlight.dh-event-info {
   border: 1px solid #1e90ff;
 }
@@ -347,6 +350,9 @@
 }
 .event-pop {
   background-color: #FFC0CB;
+}
+.event-rock {
+  background-color: #000000;
 }
 .event-inverse {
   background-color: #1b1b1b;
