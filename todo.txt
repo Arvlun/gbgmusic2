@@ -10,7 +10,7 @@ byta standard språk - Arvid V jobbar pŒ detta.. har kontakt med en snubbe som hj
 
 Arvid L: lägga till sökfunktion
 
-lägga till sorting efter genre
+lägga till sorting efter genre (Kolla i calendar.js rad 61. Tror att det här är användbart)
 
 välja genre när man skapar event - rull lista
 

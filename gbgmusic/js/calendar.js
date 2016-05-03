@@ -1,10 +1,4 @@
-/**
- * Bootstrap based calendar full view.
- *
- * https://github.com/Serhioromano/bootstrap-calendar
- *
- * User: Sergey Romanov <serg4172@mail.ru>
- */
+
 "use strict";
 
 Date.prototype.getWeek = function(iso8601) {
