@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="page-header">
-
+			
 			<div class="pull-right form-inline">
 
 				<!-- Button trigger modal -->
@@ -122,6 +122,10 @@
 				<div id="calendar"></div>
 			</div>
 			<div class="container"> <!-- CHECKBOXES -->
+			<form>
+				<input type="text" id="sfield" value="sök på bandnamn">
+				<input name="submit" id="submit" type="submit" value="Search" id="searchbutton">
+				</form>
   				<h2><center>Genre</center></h2>
  					 <p><center>bocka in de genre du vill att kalendern ska visa</center></p>
  					 
@@ -162,7 +166,9 @@
 
 		<div class="clearfix"></div>
 		<br><br>
-		<div id="disqus_thread"></div>
+		<div id="disqus_thread"><div id="searchresults">Search results :</div>
+								<ul id="results" class="update">
+								</ul></div>
 		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 		<div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -187,6 +193,7 @@
 		<script type="text/javascript" src="components/jstimezonedetect/jstz.min.js"></script>
 		<script type="text/javascript" src="js/calendar.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/searchjs.js"></script>
 	</div>
 	</body>
 	</html>
