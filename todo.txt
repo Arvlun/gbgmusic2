@@ -7,6 +7,8 @@ Kajsa:
 lägga till genrer och plutt färger (ändras i .css filerna)
 //Har lagt till event-rock och event-pop. Relativt enkelt att lägga till fler. Gör efterhand när vi har bestämt vilka genrer vi ska ha med.
 
+Sohrab:
+lägga till genrer och plutt färger (ändras i .css filerna)
 
 Arvid L: lägga till sökfunktion
 	gör så att den inte är känslig för versaler/gemener
