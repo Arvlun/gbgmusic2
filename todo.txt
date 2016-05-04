@@ -9,6 +9,7 @@ lägga till genrer och plutt färger (ändras i .css filerna)
 
 Sohrab:
 fixa checkboxarna, färspluppar vid boxarna
+försöka fixa gratis webhotell
 
 Arvid L (typ klar med dessa punkterna skall fixa lite och finlira imorn, laddar när jag är klar imorgon): 
 	lägga till sökfunktion
