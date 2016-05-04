@@ -130,55 +130,57 @@
 		<h2><center>Genre</center></h2>
 		<p><center>bocka in de genre du vill att kalendern ska visa</center></p>
 
-		<form role="form">
+		<form role="form" id="genreForm">
 			<label class="checkbox-inline">
-				<input type="checkbox" value="">All musik
+				<input id="call" type="checkbox" class="genreCheckbox" value="none" checked>All musik
 			</label>
 			<label class="checkbox-inline rock">
-				<input type="checkbox" value="">Rock
+				<input id="crock" type="checkbox" class="genreCheckbox" value="event-rock">Rock
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline pop">
-				<input type="checkbox" value="">POP
+				<input id="cpop" type="checkbox" class="genreCheckbox" value="event-pop">Pop
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline house">
-				<input type="checkbox" value="">House
+				<input id="chouse" type="checkbox" class="genreCheckbox" value="event-house">House
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline hiphoprap">
-				<input type="checkbox" value="">Hiphop/Rap
+				<input id="chiphop" type="checkbox" class="genreCheckbox" value="event-hiphop">Hiphop/Rap
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline blues">
-				<input type="checkbox" value="">Blues
+				<input id="cblues" type="checkbox" class="genreCheckbox" value="event-blues">Blues
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline gospel">
-				<input type="checkbox" value="">Gospel
+				<input id="cgospel" type="checkbox" class="genreCheckbox" value="event-gospel">Gospel
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline elektronisk">
-				<input type="checkbox" value="">Elektronisk
+				<input id="celect" type="checkbox" class="genreCheckbox" value="event-elect">Elektronisk
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline country">
-				<input type="checkbox" value="">Country
+				<input id="ccountry" type="checkbox" class="genreCheckbox" value="event-country">Country
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline metal">
-				<input type="checkbox" value="">Metal
+				<input id="cmetal" type="checkbox" class="genreCheckbox" value="event-metal">Metal
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline newage">
-				<input type="checkbox" value="">Newage
+				<input id="cnewage" type="checkbox" class="genreCheckbox" value="event-newage">Newage
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline punk">
-				<input type="checkbox" value="">Punk
+				<input id="cpunk" type="checkbox" class="genreCheckbox" value="event-punk">Punk
 				<div class="circle"></div>
 			</label>
+			
 		</form>
+				<button name="checkSub" id="checkSub">Filter</button>
 	</div>    <!--CHECKBOXES SLUT -->
 		</div>
 

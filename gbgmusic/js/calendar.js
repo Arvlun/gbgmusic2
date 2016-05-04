@@ -1,4 +1,10 @@
-
+/**
+ * Bootstrap based calendar full view.
+ *
+ * https://github.com/Serhioromano/bootstrap-calendar
+ *
+ * User: Sergey Romanov <serg4172@mail.ru>
+ */
 "use strict";
 
 Date.prototype.getWeek = function(iso8601) {
@@ -238,6 +244,9 @@ if(!String.prototype.formatNum) {
 		d6: 'Saturday'
 	};
 
+	var stermLocation = '';
+	var genreFilter = "test";
+
 	var browser_timezone = '';
 	try {
 		if($.type(window.jstz) == 'object' && $.type(jstz.determine) == 'function') {
@@ -399,6 +408,16 @@ if(!String.prototype.formatNum) {
 		if('modal' in object) {
 			this._update_modal();
 		}
+	}
+
+	Calendar.prototype.setGenre = function(object) {
+		$.extend(this.options, object);
+		//console.log(object);
+		//console.log("sofar");
+		//console.log(genreFilter);
+		genreFilter = object;
+		//console.log(this.genreFilter);
+
 	}
 
 	Calendar.prototype.setLanguage = function(lang) {
@@ -759,6 +778,21 @@ if(!String.prototype.formatNum) {
 		this.options.onAfterViewLoad.call(this, this.options.view);
 	};
 
+	Calendar.prototype.viewGenre = function(view) {
+		if(view) {
+			if(!this.options.views[view].enable) {
+				return;
+			}
+			this.options.view = view;
+		}
+
+		this._init_position();
+		this._loadGenreEvents();
+		this._render();
+
+		this.options.onAfterViewLoad.call(this, this.options.view);
+	};
+
 	Calendar.prototype.navigate = function(where, next) {
 		var to = $.extend({}, this.options.position);
 		if(where == 'next') {
@@ -915,17 +949,20 @@ if(!String.prototype.formatNum) {
 		switch($.type(source)) {
 			case 'function':
 				loader = function() {
+					//window.alert("function");
 					return source(self.options.position.start, self.options.position.end, browser_timezone);
 				};
 				break;
 			case 'array':
 				loader = function() {
+					//window.alert("array");
 					return [].concat(source);
 				};
 				break;
 			case 'string':
 				if(source.length) {
 					loader = function() {
+						//window.alert("string");
 						var events = [];
                                                 var d_from = self.options.position.start;
                                                 var d_to = self.options.position.end;
@@ -945,6 +982,119 @@ if(!String.prototype.formatNum) {
 							}
 							if(json.result) {
 								events = json.result;
+							}
+						});
+						return events;
+					};
+				}
+				break;
+		}
+		if(!loader) {
+			$.error(this.locale.error_loadurl);
+		}
+		this.options.onBeforeEventsLoad.call(this, function() {
+			if (!self.options.events.length || !self.options.events_cache) {
+				self.options.events = loader();
+				self.options.events.sort(function (a, b) {
+					var delta;
+					delta = a.start - b.start;
+					if (delta == 0) {
+						delta = a.end - b.end;
+					}
+					return delta;
+				});
+			}
+			self.options.onAfterEventsLoad.call(self, self.options.events);
+		});
+	};
+
+	/*function filterByBandname(source, bandname) {
+  		var results;
+
+    	bandname = bandname.toLowerCase();
+   		results = $.map(function(entry) {
+        	var match = entry.bandname.toLowerCase().indexOf(bandname) !== -1;
+        	return match ? entry : null;
+    	});
+    	return results;
+	}*/
+
+	function filterByGenre(events, search) {
+  		var arrays = search;
+		var result = events.filter(function(item) {
+    		for (var prop in arrays)
+        		if (arrays[prop].indexOf(item[prop]) == -1)
+            	return false;
+    		return true;
+			});
+		return result;
+	}
+
+	function filterByLocation(events, search) {
+  		var results = [];
+		var searchField = "location";
+		var searchVal = search;
+		for (var i=0 ; i < events.length ; i++)
+		{
+    		if (events[i][searchField] == searchVal) {
+        		results.push(events[i]);
+   			}
+		}
+		return results;
+	}
+
+	Calendar.prototype._loadGenreEvents = function(term) {
+		var self = this;
+		var source = null;
+		if('events_source' in this.options && this.options.events_source !== '') {
+			source = this.options.events_source;
+		}
+		else if('events_url' in this.options) {
+			source = this.options.events_url;
+			warn('The events_url option is DEPRECATED and it will be REMOVED in near future. Please use events_source instead.');
+		}
+		var loader;
+		switch($.type(source)) {
+			case 'function':
+				loader = function() {
+					//window.alert("function");
+					return source(self.options.position.start, self.options.position.end, browser_timezone);
+				};
+				break;
+			case 'array':
+				loader = function() {
+					//window.alert("array");
+					return [].concat(source);
+				};
+				break;
+			case 'string':
+				if(source.length) {
+					loader = function() {
+						//window.alert("string");
+						var events = [];
+                                                var d_from = self.options.position.start;
+                                                var d_to = self.options.position.end;
+                                                var params = {from: d_from.getTime(), to: d_to.getTime(), utc_offset_from: d_from.getTimezoneOffset(), utc_offset_to: d_to.getTimezoneOffset()};
+
+						if(browser_timezone.length) {
+							params.browser_timezone = browser_timezone;
+						}
+						$.ajax({
+							url: buildEventsUrl(source, params),
+							dataType: 'json',
+							type: 'GET',
+							async: false
+						}).done(function(json) {
+							if(!json.success) {
+								$.error(json.error);
+							}
+							if(json.result) {
+								events = json.result;
+								//console.log("insidegenreload:"+genreFilter);
+								var result = filterByGenre(events, genreFilter);
+								//console.log("filtererd:"+result);
+								events = result;
+								//var results = filterByLocation(events, "FIXA HMTA");
 							}
 						});
 						return events;

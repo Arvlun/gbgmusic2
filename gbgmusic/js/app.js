@@ -49,6 +49,40 @@
 		});
 	});
 
+	/*$('#reloadGenre').click(function() {
+		var genreFilter = {
+			"class": ["event-warning", "event-succes"]
+		};
+		console.log(genreFilter);
+
+	});*/
+
+	$('#checkSub').click(function() {
+
+		if ($("#genreForm input:checkbox:checked").length > 0) {
+			console.log("funka");
+			if ($("#call").is(":checked")) {
+				//console.log("allmusic");
+				calendar.view();
+			} else {
+				var selected = {
+					"class": []
+				};
+        		$('.genreCheckbox:checked').each(function(i){
+        			selected.class.push($(this).val());
+        		});
+        	
+        	calendar.setGenre(selected);
+			calendar.viewGenre();
+        	
+			
+			}
+		} else {
+			calendar.view();
+		}
+		
+	});
+
 	$('#first_day').change(function(){
 		var value = $(this).val();
 		value = value.length ? parseInt(value) : null;
@@ -80,6 +114,7 @@
 		calendar.setOptions({weekbox: val});
 		calendar.view();
 	});
+
 	$('#events-modal .modal-header, #events-modal .modal-footer').click(function(e){
 		//e.preventDefault();
 		//e.stopPropagation();
