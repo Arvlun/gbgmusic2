@@ -1,0 +1,62 @@
+
+.checkbox-inline + .checkbox-inline, .checkbox-inline  {
+    margin-right: 10px;
+    margin-left: 0;
+    width: 120px;
+    position: relative;
+}
+
+.circle {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+
+
+.rock .circle {
+	background-color: #999;
+}
+
+.pop .circle {
+	background-color: red;
+}
+
+.house .circle {
+	background-color: blue;
+}
+
+.hiphoprap .circle {
+	background-color: #199;
+}
+
+.blues .circle {
+	background-color: #299;
+}
+
+.gospel .circle {
+	background-color: #399;
+}
+
+.elektronisk .circle {
+	background-color: #459;
+}
+
+.country .circle {
+	background-color: #509;
+}
+
+.metal .circle {
+	background-color: #619;
+}
+
+.newage .circle {
+	background-color: orange;
+}
+
+.punk .circle {
+	background-color: black;
+}
