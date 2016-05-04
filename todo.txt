@@ -14,12 +14,12 @@ Arvid L: lägga till sökfunktion
 	gör så att den inte är känslig för versaler/gemener
 	göra så att resultatet visas på ett vettigare sätt
 	KANSKE -> lägga till så att man kan söka på location <-nog rätt nära samma sätt som att sortera efter genrar så borde göras samtidigt förmodligen
+	lägga till sorting efter genre (Kolla i calendar.js rad 61. Tror att det här är användbart) <- den med 'now'?
 
-lägga till sorting efter genre (Kolla i calendar.js rad 61. Tror att det här är användbart) <- den med 'now'?
 
 välja genre när man skapar event - rull lista
 
-lägg ändra funktion i modal när mna trycker på ett event
+lägg ändra/tabort funktion i modal när mna trycker på ett event
 
 ändra save-modal så att knapparna är vettiga
 
