@@ -10,11 +10,12 @@ lägga till genrer och plutt färger (ändras i .css filerna)
 Sohrab:
 lägga till genrer och plutt färger (ändras i .css filerna)
 
-Arvid L: lägga till sökfunktion
+Arvid L (typ klar med dessa punkterna skall fixa lite och finlira imorn, laddar när jag är klar imorgon): 
+	lägga till sökfunktion
 	gör så att den inte är känslig för versaler/gemener
 	göra så att resultatet visas på ett vettigare sätt
 	KANSKE -> lägga till så att man kan söka på location <-nog rätt nära samma sätt som att sortera efter genrar så borde göras samtidigt förmodligen
-	lägga till sorting efter genre (Kolla i calendar.js rad 61. Tror att det här är användbart) <- den med 'now'?
+	lägga till sorting efter genre (Kolla i calendar.js rad 61. Tror att det här är användbart)
 
 
 välja genre när man skapar event - rull lista
