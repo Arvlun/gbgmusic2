@@ -3,6 +3,36 @@ Form
 Knappar(?)
 Ta bort onödiga saker
 sökresultat
+Gör allting till Engelska
+
+Anpassa de olika viewen.
+Fixa dayview (Kanske)
+
+Search
+Fixa placeholder-text
+Searchknapp som öppnar modal
+Fixa sökresultat (i modal)
+
+Checkbox
+lägga genre i en box så att den inte flyter under i "week-view"
+Ta bort "all musik"
+
+Events
+ID:t ska autogenereras
+välja genre när man skapar event - rull lista
+Starttid ska endast finnas
+ändra save-modal så att knapparna är vettiga
+Fixa facebook och spotify på modalen
+
+ATTRIBUT:
+ID (icke synligt)
+Titel (Bandnamn @ location)
+Bandnamn
+Location
+Description
+
+
+
 
 Kajsa:
 lägga till genrer och plutt färger (ändras i .css filerna)
@@ -18,9 +48,4 @@ Arvid L:
 	lägga till så att man kan söka på location 
 	lägg ändra/tabort funktion i modal när mna trycker på ett event
 
-
-välja genre när man skapar event - rull lista
-
-
-ändra save-modal så att knapparna är vettiga
 
