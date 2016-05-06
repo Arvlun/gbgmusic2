@@ -2,13 +2,11 @@ Fixa log-in knapp
 Lägg in kontaktuppgifter
 
 Snygga till:
-Form
+Form (lägga till rullista för genre)
 Knappar(?)
 Ta bort onödiga saker
 Gör allting till Engelska
-
 Anpassa de olika viewen.
-Fixa dayview (Kanske)
 
 Search
 Fixa placeholder-text
@@ -31,6 +29,7 @@ ID (icke synligt)
 Titel (Bandnamn @ location)
 Bandnamn
 Location
+Pris
 Description
 
 
@@ -50,4 +49,8 @@ Arvid L:
 	lägga till så att man kan söka på location 
 	lägg ändra/tabort funktion i modal när mna trycker på ett event
 
+-------------------------------------------------------------------------
+KANSKE
+...................................
 
+Fixa dayview (Kanske)
