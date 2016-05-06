@@ -2,7 +2,6 @@ Snygga till:
 Form
 Knappar(?)
 Ta bort onödiga saker
-sökresultat
 Gör allting till Engelska
 
 Anpassa de olika viewen.
