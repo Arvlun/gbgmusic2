@@ -8,11 +8,14 @@
 
 //date_default_timezone_set("Europe/Stockholm");
 $json = file_get_contents('events.json.php');
+$json = strtolower($json);
 global $data;
 $data = json_decode($json, true);
+
+
 $searchterm = '';
 $searchterm = isset($_POST['sfield']) ? $_POST['sfield'] : '';
-
+$searchterm = strtolower($searchterm);
 $sresultband = '';
 $sresultband = array_filter($data['result'], function($data) use ($searchterm) {
   return $data['bandname'] == $searchterm;
@@ -25,5 +28,8 @@ foreach($sresultband as $r) {
       echo "<b>Bandname:</b> ".$r['bandname']."&nbsp;&nbsp; <b>Location:</b> ".$r['location']."&nbsp;&nbsp; <b>Price:</b> ".$r['price']."&nbsp;&nbsp; <b>Tid:</b> ".$startdate->format('Y-m-d H:i')."<br>";
    
 }
+
+
+
 
 ?>
