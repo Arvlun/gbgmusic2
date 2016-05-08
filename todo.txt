@@ -2,7 +2,7 @@ Fixa log-in knapp
 Lägg in kontaktuppgifter
 
 Snygga till:
-Form (lägga till rullista för genre)
+
 Knappar(?)
 Ta bort onödiga saker
 Gör allting till Engelska
@@ -17,16 +17,10 @@ lägga genre i en box så att den inte flyter under i "week-view"
 Ta bort "all musik"
 
 Events
-välja genre när man skapar event - rull lista
 Fixa facebook och spotify på modalen
 
-ATTRIBUT:
-ID (icke synligt) <- fixat
-Titel (Bandnamn @ location) <- fixat
-Bandnamn
-Location
-Pris
-Description <- kvar
+
+
 
 
 
@@ -41,11 +35,13 @@ försöka fixa gratis webhotell
 
 
 Arvid L:
-	lägg ändra/tabort funktion i modal när mna trycker på ett event
+	lägga till description till json
+	Form (lägga till rullista för genre)	
 
 -------------------------------------------------------------------------
 KANSKE
 ...................................
 
 Fixa dayview (Kanske)
-lägga till så att man kan söka på location 
+lägga till så att man kan söka på location
+lägg till ändra funktion 
