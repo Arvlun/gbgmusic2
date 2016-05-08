@@ -9,7 +9,6 @@ Gör allting till Engelska
 Anpassa de olika viewen.
 
 Search
-Fixa placeholder-text
 Searchknapp som öppnar modal
 Fixa sökresultat (i modal)
 
@@ -18,19 +17,16 @@ lägga genre i en box så att den inte flyter under i "week-view"
 Ta bort "all musik"
 
 Events
-ID:t ska autogenereras
 välja genre när man skapar event - rull lista
-Starttid ska endast finnas
-ändra save-modal så att knapparna är vettiga
 Fixa facebook och spotify på modalen
 
 ATTRIBUT:
-ID (icke synligt)
-Titel (Bandnamn @ location)
+ID (icke synligt) <- fixat
+Titel (Bandnamn @ location) <- fixat
 Bandnamn
 Location
 Pris
-Description
+Description <- kvar
 
 
 
@@ -45,8 +41,6 @@ försöka fixa gratis webhotell
 
 
 Arvid L:
-	gör så att sökfunktionen inte är känslig för versaler/gemener
-	lägga till så att man kan söka på location 
 	lägg ändra/tabort funktion i modal när mna trycker på ett event
 
 -------------------------------------------------------------------------
@@ -54,3 +48,4 @@ KANSKE
 ...................................
 
 Fixa dayview (Kanske)
+lägga till så att man kan söka på location 
