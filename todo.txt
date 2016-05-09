@@ -1,5 +1,3 @@
-Fixa log-in knapp
-
 Snygga till:
 
 Knappar(?)
