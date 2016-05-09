@@ -34,8 +34,7 @@ försöka fixa gratis webhotell
 
 
 Arvid L:
-	lägga till description till json
-	Form (lägga till rullista för genre)	
+
 
 -------------------------------------------------------------------------
 KANSKE
