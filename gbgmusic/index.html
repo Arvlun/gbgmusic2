@@ -193,14 +193,49 @@
 		<div class="clearfix"></div>
 		<br><br>
 		<div id="disqus_thread"><div id="searchresults">Search results :</div>
-								<ul id="results" class="update">
-								</ul></div>
+			<ul id="results" class="update">
+		</ul></div>
 
-	<footer class="container">
+	<!-- Logg-in Modal -->
+	<div id="minModal" class="modal fade" role="dialog">
+  	<div class="modal-dialog">
+
+    <!-- Logg-in Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Administration Logg-in</h4>
+      </div>
+      <div class="modal-body">
+        <p>Logg in</p>
+        <form role="form" action="saveformtest.php" method="post">
+        	<div class="form-group">
+    <label for="user">Username:</label>
+    <input type="text" class="form-control" name="user">
+  </div>
+  <div class="form-group">
+    <label for="passw">Password:</label>
+    <input type="text" class="form-control" name="passw">
+  </div>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-default" data-dismiss="modal">Logg-in</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  	</div>
+	</div>
+
+		<footer class="container">
     <div class="row">
       <ul class="col-sm-4">
       	&copy; 2016 GBGMusic.
-      <a href="mailto:gbgmusic@gmail.com">Contact us</a> 
+      	<div class="dropdown">
+      <a href="mailto:gbgmusic@gmail.com">Contact us</a>
+      <div class="dropdown">
+  		<a class="dropdown-toggle" data-toggle="modal" href="#minModal">Admin logg-in</a>
+</div> 
   	</ul>
       <ul class="col-sm-8">
         <li class="col-sm-1">
