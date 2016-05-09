@@ -11,9 +11,7 @@ Search
 Searchknapp som öppnar modal
 Fixa sökresultat (i modal)
 
-Checkbox
-lägga genre i en box så att den inte flyter under i "week-view"
-Ta bort "all musik"
+
 
 Events
 Fixa facebook och spotify på modalen
@@ -34,9 +32,9 @@ checklistan (så typ event-rock för att lägga till rock event)
 
 försöka fixa gratis webhotell
 
-lägga genre i en box så att den inte flyter under i "week-view"
+checkbox: lägga genre i en box så att den inte flyter under i "week-view"
 
-Ta bort "all musik"
+checkbox: Ta bort "all musik"
 
 
 Arvid L:
