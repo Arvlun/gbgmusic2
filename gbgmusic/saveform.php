@@ -30,6 +30,7 @@ array_push($data['result'], array(
       'location'=> $_POST['location'],
       'bandname'=> $_POST['bandname'],
       'price'=> $_POST['price'],
+      'description'=> $_POST['desc'],
       'start'=> $starttime,
       'end'=> $starttime));
 

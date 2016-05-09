@@ -55,7 +55,19 @@
   </div>
   <div class="form-group">
     <label for="class">Genre:</label>
-    <input type="text" class="form-control" name="class">
+    <select name="class">
+    	<option value="event-rock">Rock</option>
+    	<option value="event-pop">Pop</option>
+    	<option value="event-house">House</option>
+    	<option value="event-hiphop">Hiphop/Rap</option>
+    	<option value="event-blues">Blues</option>
+    	<option value="event-gospel">Gospel</option>
+    	<option value="event-elektronisk">Elektronisk</option>
+    	<option value="event-country">Country</option>
+    	<option value="event-metal">Metal</option>
+    	<option value="event-newage">Newage</option>
+    	<option value="event-punk">Punk</option>
+  	</select>
   </div>
   <div class="form-group">
     <label for="location">Plats:</label>
@@ -68,12 +80,17 @@
   <div class="form-group">
     <label for="price">Pris:</label>
     <input type="text" class="form-control" name="price">
-  </div><br>
+  </div>
+  <div class="form-group">
+    <label for="desc">Description:</label>
+    <input type="text" class="form-control" name="desc">
+  </div>
   <div class="form-group">
     <label for="start">Start:</label>
     <input type="datetime-local" class="form-control" name="start">
   </div>
-  <!--<div class="form-group">
+  
+    <!--<div class="form-group">
     <label for="end">Slut:</label>
     <input type="datetime-local" class="form-control" name="end">
   </div>
@@ -148,7 +165,7 @@
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline elektronisk">
-				<input id="celect" type="checkbox" class="genreCheckbox" value="event-elect">Elektronisk
+				<input id="celect" type="checkbox" class="genreCheckbox" value="event-elektronisk">Elektronisk
 				<div class="circle"></div>
 			</label>
 			<label class="checkbox-inline country">

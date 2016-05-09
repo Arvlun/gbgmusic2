@@ -25,7 +25,8 @@ foreach($sresultband as $r) {
       $timestart = "@".substr($r['start'], 0, -3);
       $startdate = new Datetime($timestart);
       $startdate->setTimeZone(new DateTimeZone('Europe/Stockholm'));
-      echo "<b>Bandname:</b> ".$r['bandname']."&nbsp;&nbsp; <b>Location:</b> ".$r['location']."&nbsp;&nbsp; <b>Price:</b> ".$r['price']."&nbsp;&nbsp; <b>Tid:</b> ".$startdate->format('Y-m-d H:i')."<br>";
+      $genre = substr($r['class'], 6);
+      echo "<b>Bandname:</b> ".$r['bandname']."&nbsp;&nbsp; <b>Genre:</b> ".$genre."&nbsp;&nbsp; <b>Location:</b> ".$r['location']."&nbsp;&nbsp; <b>Price:</b> ".$r['price']."&nbsp;&nbsp; <b>Tid:</b> ".$startdate->format('Y-m-d H:i').$r['price']."&nbsp;&nbsp; <b>Description:</b>.".$r['description']."<br>";
    
 }
 
