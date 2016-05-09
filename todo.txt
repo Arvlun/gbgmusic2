@@ -1,5 +1,4 @@
 Fixa log-in knapp
-Lägg in kontaktuppgifter
 
 Snygga till:
 
