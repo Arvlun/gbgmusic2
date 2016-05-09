@@ -527,3 +527,23 @@ a.cal-event-week {
 .badge-important {
   background-color: #b94a48;
 }
+
+footer {
+  border-top: 1px solid #e1e1e1;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
