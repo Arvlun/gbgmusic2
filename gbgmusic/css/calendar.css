@@ -547,3 +547,16 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
+.jumbotron {
+background-image: url('http://www.unf.se/wp-content/uploads/2014/09/gbg-natt1.jpg');
+background-size: cover;
+height: 100%;}
+
+.jumbotron h1{
+    color: #ffffff;
+}
+
+.jumbotron h4{
+    color: #ffffff;
+}
