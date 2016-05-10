@@ -41,7 +41,6 @@ fixa checkboxarna, färspluppar vid boxarna <- fixa så att färgerna i checkboxarn
 checklistan (så typ event-rock för att lägga till rock event)
 
 
-checkbox: lägga genre i en box så att den inte flyter under i "week-view"/year
 
 checkbox: Ta bort "all musik"
 
