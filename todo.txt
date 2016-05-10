@@ -22,16 +22,16 @@ Fixa facebook och spotify på modalen
 Kajsa:
 Fixa färger för alla genres.
 Genrer:
-Dansmusik/house
-Hårdrock
+Dansmusik/house 	_check_
+Hårdrock 			_check_
 Singer/songwriter
 blues
 Country
 Elektroniskt
 Hiphop/rap
 Jazz
-Pop
-Rock
+Pop					_check_
+rock 				_check_
 Synth
 Techno 
 
