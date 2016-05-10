@@ -318,11 +318,20 @@
 #cal-day-box .day-highlight.dh-event-country {
   border: 1px solid #e59400;
 }
-#cal-day-box .day-highlight.dh-event-country {
+#cal-day-box .day-highlight.dh-event-hiphop {
   border: 1px solid #663300;
 }
 #cal-day-box .day-highlight.dh-event-elektronisk {
   border: 1px solid #007300;
+}
+#cal-day-box .day-highlight.dh-event-jazz {
+  border: 1px solid #ff0000;
+}
+#cal-day-box .day-highlight.dh-event-techno {
+  border: 1px solid #336600;
+}
+#cal-day-box .day-highlight.dh-event-other {
+  border: 1px solid #339966;
 }
 #cal-day-box .day-highlight.dh-event-info {
   border: 1px solid #1e90ff;
@@ -395,6 +404,15 @@
 }
 .event-hiphop {
   background-color: #663300;
+}
+.event-jazz {
+  background-color: #ff0000;
+}
+.event-techno {
+  background-color: #336600;
+}
+.event-other {
+  background-color: #339966;
 }
 .event-inverse {
   background-color: #1b1b1b;
