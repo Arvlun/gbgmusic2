@@ -304,7 +304,7 @@
   border: 1px solid #000000;
 }
 #cal-day-box .day-highlight.dh-event-house {
-  border: 1px solid #FFC0CB;
+  border: 1px solid #800080;
 }
 #cal-day-box .day-highlight.dh-event-hardrock {
   border: 1px solid #FFC0CB;
@@ -359,6 +359,12 @@
 }
 .event-rock {
   background-color: #000000;
+}
+.event-house {
+  background-color: #800080;
+}
+.event-hardrock{
+  background-color: #4c0000;
 }
 .event-inverse {
   background-color: #1b1b1b;
