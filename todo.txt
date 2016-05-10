@@ -21,14 +21,12 @@ Fixa facebook och spotify på modalen
 
 
 Kajsa:
-lägga till genrer och plutt färger (ändras i .css filerna)
-//Har lagt till event-rock och event-pop. Relativt enkelt att lägga till fler. Gör efterhand när vi har bestämt vilka genrer vi ska ha med. <- jag la till alla i checkboxarna i filter funktionen
+Fixa färger för alla genres. 
 
 Sohrab:
 fixa checkboxarna, färspluppar vid boxarna <- fixa så att färgerna i checkboxarna är samma som de i kalendern - för att lägga till ett event klass skriver du event-genre genrarna är samma som du la till i 
 checklistan (så typ event-rock för att lägga till rock event)
 
-försöka fixa gratis webhotell
 
 checkbox: lägga genre i en box så att den inte flyter under i "week-view"
 
