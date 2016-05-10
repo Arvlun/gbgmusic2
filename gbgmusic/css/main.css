@@ -1,3 +1,10 @@
+.yearbox {
+	min-height: 350px;
+}
+
+.weekbox {
+	min-height: 350px;
+}
 
 .checkbox-inline + .checkbox-inline, .checkbox-inline  {
     margin-right: 10px;
