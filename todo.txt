@@ -1,4 +1,5 @@
 Snygga till:
+Göra footern grå?
 
 Knappar(?)
 Ta bort onödiga saker
@@ -22,7 +23,7 @@ Fixa facebook och spotify på modalen
 Kajsa:
 Fixa färger för alla genres.
 Genrer:
-Dansmusik/house 	_check_
+house 				_check_
 Hårdrock 			_check_
 Singer/songwriter
 blues
