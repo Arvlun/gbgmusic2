@@ -19,16 +19,28 @@ Fixa facebook och spotify på modalen
 
 
 
-
 Kajsa:
-Fixa färger för alla genres. 
+Fixa färger för alla genres.
+Genrer:
+Dansmusik/house
+Hårdrock
+Singer/songwriter
+blues
+Country
+Elektroniskt
+Hiphop/rap
+Jazz
+Pop
+Rock
+Synth
+Techno 
 
 Sohrab:
 fixa checkboxarna, färspluppar vid boxarna <- fixa så att färgerna i checkboxarna är samma som de i kalendern - för att lägga till ett event klass skriver du event-genre genrarna är samma som du la till i 
 checklistan (så typ event-rock för att lägga till rock event)
 
 
-checkbox: lägga genre i en box så att den inte flyter under i "week-view"
+checkbox: lägga genre i en box så att den inte flyter under i "week-view"/year
 
 checkbox: Ta bort "all musik"
 
@@ -43,3 +55,4 @@ KANSKE
 Fixa dayview (Kanske)
 lägga till så att man kan söka på location
 lägg till ändra funktion 
+Eventuellt göra så att filterfunktionen automatiskt uppdateras när man klickar i en checkbox/genre

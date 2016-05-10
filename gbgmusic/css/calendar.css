@@ -303,6 +303,12 @@
 #cal-day-box .day-highlight.dh-event-rock {
   border: 1px solid #000000;
 }
+#cal-day-box .day-highlight.dh-event-house {
+  border: 1px solid #FFC0CB;
+}
+#cal-day-box .day-highlight.dh-event-hardRock {
+  border: 1px solid #FFC0CB;
+}
 #cal-day-box .day-highlight.dh-event-info {
   border: 1px solid #1e90ff;
 }
