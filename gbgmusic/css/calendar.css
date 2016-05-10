@@ -309,6 +309,12 @@
 #cal-day-box .day-highlight.dh-event-hardrock {
   border: 1px solid #FFC0CB;
 }
+#cal-day-box .day-highlight.dh-event-singersongwriter {
+  border: 1px solid #4c4cff;
+}
+#cal-day-box .day-highlight.dh-event-blues {
+  border: 1px solid #00007f;
+}
 #cal-day-box .day-highlight.dh-event-info {
   border: 1px solid #1e90ff;
 }
@@ -363,8 +369,14 @@
 .event-house {
   background-color: #800080;
 }
-.event-hardrock{
+.event-hardrock {
   background-color: #4c0000;
+}
+.event-singersongwriter {
+  background-color: #4c4cff;
+}
+.event-blues {
+  background-color: #00007f;
 }
 .event-inverse {
   background-color: #1b1b1b;
