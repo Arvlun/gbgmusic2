@@ -7,8 +7,7 @@ Gör allting till Engelska
 Anpassa de olika viewen.
 
 Search
-Searchknapp som öppnar modal
-Fixa sökresultat (i modal)
+Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut nu
 
 
 
