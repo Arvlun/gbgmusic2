@@ -25,16 +25,16 @@ Fixa färger för alla genres.
 Genrer:
 house 				_check_
 Hårdrock 			_check_
-Singer/songwriter
-blues
-Country
-Elektroniskt
-Hiphop/rap
+Singer/songwriter	_check_
+blues				_check_
+Country				_check_
+Elektroniskt		_check_
+Hiphop/rap			_check_
 Jazz
 Pop					_check_
 rock 				_check_
-Synth
 Techno 
+Others
 
 Sohrab:
 fixa checkboxarna, färspluppar vid boxarna <- fixa så att färgerna i checkboxarna är samma som de i kalendern - för att lägga till ett event klass skriver du event-genre genrarna är samma som du la till i 

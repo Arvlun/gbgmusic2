@@ -310,10 +310,19 @@
   border: 1px solid #FFC0CB;
 }
 #cal-day-box .day-highlight.dh-event-singersongwriter {
-  border: 1px solid #4c4cff;
+  border: 1px solid #ffff00;
 }
 #cal-day-box .day-highlight.dh-event-blues {
   border: 1px solid #00007f;
+}
+#cal-day-box .day-highlight.dh-event-country {
+  border: 1px solid #e59400;
+}
+#cal-day-box .day-highlight.dh-event-country {
+  border: 1px solid #663300;
+}
+#cal-day-box .day-highlight.dh-event-elektronisk {
+  border: 1px solid #007300;
 }
 #cal-day-box .day-highlight.dh-event-info {
   border: 1px solid #1e90ff;
@@ -373,10 +382,19 @@
   background-color: #4c0000;
 }
 .event-singersongwriter {
-  background-color: #4c4cff;
+  background-color: #ffff00;
 }
 .event-blues {
   background-color: #00007f;
+}
+.event-country {
+  background-color: #e59400;
+}
+.event-elektronisk {
+  background-color: #007300;
+}
+.event-hiphop {
+  background-color: #663300;
 }
 .event-inverse {
   background-color: #1b1b1b;
