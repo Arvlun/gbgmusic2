@@ -26,6 +26,7 @@ foreach($sresultband as $r) {
       $startdate = new Datetime($timestart);
       $startdate->setTimeZone(new DateTimeZone('Europe/Stockholm'));
       $genre = substr($r['class'], 6);
+      $genre = ucwords($genre);
       echo '<div class="well well-sm">';
       echo "<b>Bandname:</b> ".$r['bandname']."<br><b>Genre:</b> ".$genre."<br> <b>Location:</b> ".$r['location']."<br> <b>Price:</b> ".$r['price']."<br> <b>Tid:</b> ".$startdate->format('Y-m-d H:i')."<br> <b>Description: </b>".$r['description']."";
    	  echo "</div>";
