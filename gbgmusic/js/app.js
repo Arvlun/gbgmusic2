@@ -83,6 +83,11 @@
 		
 	});
 
+    $(document).on("hidden.bs.modal", "#modalSearch", function (e) {
+    	$(e.target).removeData("bs.modal").find("#results").empty();
+    	$(this).find("form").trigger('reset');
+	});
+
 	$('#first_day').change(function(){
 		var value = $(this).val();
 		value = value.length ? parseInt(value) : null;
