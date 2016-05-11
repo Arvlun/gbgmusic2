@@ -6,7 +6,7 @@
 //echo $svalue;
 //}
 
-//date_default_timezone_set("Europe/Stockholm");
+date_default_timezone_set("Europe/Stockholm");
 $json = file_get_contents('events.json.php');
 $json = strtolower($json);
 global $data;
