@@ -6,6 +6,10 @@ Ta bort onödiga saker
 Gör allting till Engelska
 Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
 
+
+Kolla så att alla checkboxar visar det de ska. Techno fungerar exempelvis inte i dagsläget. 
+
+
 Search
 Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut nu
 
