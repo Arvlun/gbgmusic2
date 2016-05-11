@@ -23,47 +23,50 @@
 }
 
 
+.hardrock .circle {
+	background-color: #FFC0CB;
+}
 
 .rock .circle {
-	background-color: #999;
+	background-color: #000000;
 }
 
 .pop .circle {
-	background-color: red;
+	background-color: #FFC0CB;
 }
 
 .house .circle {
-	background-color: blue;
+	background-color: #800080;
 }
 
 .hiphoprap .circle {
-	background-color: #199;
+	background-color: #663300;
 }
 
 .blues .circle {
-	background-color: #299;
+	background-color: #00007f;
 }
 
-.gospel .circle {
-	background-color: #399;
+.singer .circle {
+	background-color: #ffff00;
 }
 
 .elektronisk .circle {
-	background-color: #459;
+	background-color: #007300;
 }
 
 .country .circle {
-	background-color: #509;
+	background-color: #e59400;
 }
 
-.metal .circle {
-	background-color: #619;
+.jazz .circle {
+	background-color: #ff0000;
 }
 
-.newage .circle {
-	background-color: orange;
+.techno .circle {
+	background-color: #336600;
 }
 
-.punk .circle {
-	background-color: black;
+.other .circle {
+	background-color: #339966;
 }
