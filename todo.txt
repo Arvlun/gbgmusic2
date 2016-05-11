@@ -4,11 +4,13 @@ Göra footern grå?
 Knappar(?)
 Ta bort onödiga saker
 Gör allting till Engelska
-Anpassa de olika viewen.
+Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
 
 Search
 Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut nu
 
+
+byta singer/songwriter till något
 
 
 Events
@@ -36,12 +38,10 @@ Techno 				_check_
 Other				_check_
 
 Sohrab:
-fixa checkboxarna, färspluppar vid boxarna <- fixa så att färgerna i checkboxarna är samma som de i kalendern - för att lägga till ett event klass skriver du event-genre genrarna är samma som du la till i 
-checklistan (så typ event-rock för att lägga till rock event)
 
 
 
-checkbox: Ta bort "all musik"
+
 
 
 Arvid L:
