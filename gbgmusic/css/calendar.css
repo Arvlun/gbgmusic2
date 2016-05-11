@@ -309,7 +309,7 @@
 #cal-day-box .day-highlight.dh-event-hardrock {
   border: 1px solid orange;
 }
-#cal-day-box .day-highlight.dh-event-singersongwriter {
+#cal-day-box .day-highlight.dh-event-metal {
   border: 1px solid #ffff00;
 }
 #cal-day-box .day-highlight.dh-event-blues {
@@ -390,7 +390,7 @@
 .event-hardrock {
   background-color: #4c0000;
 }
-.event-singersongwriter {
+.event-metal {
   background-color: #ffff00;
 }
 .event-blues {
