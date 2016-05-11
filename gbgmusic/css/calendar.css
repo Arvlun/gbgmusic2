@@ -307,7 +307,7 @@
   border: 1px solid #800080;
 }
 #cal-day-box .day-highlight.dh-event-hardrock {
-  border: 1px solid #FFC0CB;
+  border: 1px solid orange;
 }
 #cal-day-box .day-highlight.dh-event-singersongwriter {
   border: 1px solid #ffff00;
