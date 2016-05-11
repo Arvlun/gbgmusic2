@@ -3,7 +3,6 @@ Göra footern grå?
 
 Knappar(?)
 Ta bort onödiga saker
-Gör allting till Engelska
 Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
 
 
