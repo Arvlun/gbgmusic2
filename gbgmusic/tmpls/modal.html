@@ -5,7 +5,7 @@
     <span>Ends on <%= event.date_end.getDate() %> <%= calendar.locale["m" + event.date_end.getMonth()] %> <%= event.date_end.getFullYear() %> at <%= ('0'+event.date_end.getHours()).slice(-2) %>:<%= ('0'+event.date_end.getMinutes()).slice(-2) %> <i class = "icon-time"></i></span><br />
     <span>Location <%= event.location %></span><br />
     <span>Bandname <%= event.bandname %></span><br />
-    <span>Bandname <%= event.class %></span><br />
+    <span>genre <%= event.class %></span><br />
     <span>Price <%= event.price %></span><br />
     <span>Description <%= event.description %></span><br />
     <!--<span><img src=img/spot.png></span><br />-->
