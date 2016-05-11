@@ -70,3 +70,7 @@
 .other .circle {
 	background-color: #339966;
 }
+
+select {
+  font-size: 30px !important
+}
