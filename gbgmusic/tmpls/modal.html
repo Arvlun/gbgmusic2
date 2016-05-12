@@ -29,7 +29,7 @@
                             <b>Starts:</b> 
                         </td>
                         <td class="col-xs-10">
-                            <%= event.date_start.getDate() %> <%= calendar.locale["m" + event.date_start.getMonth()] %> <%= event.date_start.getFullYear() %>, at <%= event.date_start.getHours() %>:<%= event.date_start.getMinutes() %> <i class = "icon-time"></i>
+                            <%= event.date_start.getDate() %> <%= calendar.locale["m" + event.date_start.getMonth()] %> <%= event.date_start.getFullYear() %>, at <%= ('0'+event.date_start.getHours()).slice(-2) %>:<%= ('0'+event.date_start.getMinutes()).slice(-2) %>
                         </td>
                     </tr>
                     <tr>
