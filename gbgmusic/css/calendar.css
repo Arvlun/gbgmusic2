@@ -321,8 +321,8 @@
 #cal-day-box .day-highlight.dh-event-hiphop {
   border: 1px solid #663300;
 }
-#cal-day-box .day-highlight.dh-event-elektronisk {
-  border: 1px solid #007300;
+#cal-day-box .day-highlight.dh-event-electronic {
+  border: 1px solid #008000;
 }
 #cal-day-box .day-highlight.dh-event-jazz {
   border: 1px solid #ff0000;
@@ -399,8 +399,8 @@
 .event-country {
   background-color: #e59400;
 }
-.event-elektronisk {
-  background-color: #007300;
+.event-electronic {
+  background-color: #008000;
 }
 .event-hiphop {
   background-color: #663300;
