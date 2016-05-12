@@ -6,7 +6,7 @@ Ta bort onödiga saker
 Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
 
 
-Kolla så att alla checkboxar visar det de ska. Techno fungerar exempelvis inte i dagsläget. 
+Kolla så att alla checkboxar visar det de ska. 
 
 
 Search
