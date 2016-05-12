@@ -15,7 +15,14 @@ Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut
 
 Events
 Fixa facebook och spotify på modalen
+<<<<<<< HEAD
 Fixa så att titeln på modalen för events är bandnamne @ location
+=======
+
+Lägga till fält för att skriva spotifylänk när man skapar nytt event?
+
+
+>>>>>>> origin/master
 
 
 

@@ -69,13 +69,13 @@
     <input type="text" class="form-control" name="price">
   </div>
   <div class="form-group col-xs-6">
-    <label for="url">URL:</label>
+    <label for="url">Website:</label>
     <input type="text" class="form-control" name="url">
   </div>
   <div class="form-group col-xs-6">
     <label for="desc">Description:</label>
     <textarea class="form-control status-box" rows="5" name="desc"></textarea>
-    <p class="counter">140</p>
+    <p class="counter">250</p>
   </div>
   <div class="form-group col-xs-6">
     <label for="class">Genre:</label><br>
@@ -250,7 +250,7 @@
       </div>
       <div class="modal-body">
         <div id="searchresults"><form role="form">
-			<input type="text" id="sfield" placeholder="Search for band">
+			<input type="text" id="sfield" placeholder="Search for band" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search for band'">
 			<input name="submit" id="submit" type="submit" value="Search" id="searchbutton">
 		</form><br></div>
 			<div id="results" class="update">
