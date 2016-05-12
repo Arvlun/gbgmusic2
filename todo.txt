@@ -13,13 +13,9 @@ Search
 Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut nu
 
 
-byta singer/songwriter till något
-
-
 Events
 Fixa facebook och spotify på modalen
-
-
+Fixa så att titeln på modalen för events är bandnamne @ location
 
 
 
