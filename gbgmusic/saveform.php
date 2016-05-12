@@ -19,8 +19,11 @@ while (!empty($tested)) {
 	});
 }
 $idadd = "".$id;
-//echo $id." added to db";
 
+$description = "No description";
+if (isset($_POST['descri'])) { 
+  $description = $_POST['descri'];
+} 
 
 array_push($data['result'], array(
       'id'=> $idadd,
@@ -30,7 +33,7 @@ array_push($data['result'], array(
       'location'=> $_POST['location'],
       'bandname'=> $_POST['bandname'],
       'price'=> $_POST['price'],
-      'description'=> $_POST['desc'],
+      'description'=> $description,
       'start'=> $starttime,
       'end'=> $starttime));
 

@@ -1,8 +1,8 @@
 var main = function() {
     $('.btn').click(function(){
      var post = $('.status-box').val();
-     $('<li>').text(post).prependTo('.posts');
-     $('.status-box').val('');
+     //$('<li>').text(post).prependTo('.posts');
+     //$('.status-box').val('');
      $('.counter').text('140');
     });
 
@@ -13,9 +13,10 @@ var main = function() {
             $('.counter').text(charactersLeft);
 
             if(charactersLeft < 0){
-                $('.btn-primary').addClass('disabled');
+                $('#addeventbutt').addClass('disabled');
             }
-            else {  $('.btn-primary').removeClass('disabled');}
+            else {  $('#addeventbutt').removeClass('disabled');
+            }
         });
 };
 

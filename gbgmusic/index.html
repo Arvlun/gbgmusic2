@@ -45,16 +45,8 @@
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 		        <h4 class="modal-title" id="myModalLabel">Add event</h4>
 	      </div>
+	      <form name="eventform" role="form" action="saveform.php" method="post">
 	      <div class="modal-body">
-	<form role="form" action="saveform.php" method="post">
-  <!--<div class="form-group">
-    <label for="id">ID:</label>
-    <input type="text" class="form-control" name="id">
-  </div>
-  <div class="form-group">
-    <label for="title">Title:</label>
-    <input type="text" class="form-control" name="title">
-  </div>-->
   <div class="row">
   <div class="form-group col-xs-6">
     <label for="bandname">Name:</label>
@@ -74,7 +66,7 @@
   </div>
   <div class="form-group col-xs-6">
     <label for="desc">Description:</label>
-    <textarea class="form-control status-box" rows="5" name="desc"></textarea>
+    <textarea name="descri" class="form-control status-box" rows="5" style="resize:none"></textarea>
     <p class="counter">140</p>
   </div>
   <div class="form-group col-xs-6">
@@ -100,19 +92,14 @@
     <input type="datetime-local" class="form-control" name="start">
   </div>
   </div>
-  
-    <!--<div class="form-group">
-    <label for="end">Slut:</label>
-    <input type="datetime-local" class="form-control" name="end">
-  </div>
-  <button type="submit" class="btn btn-default">Lägg till</button>-->
+
 
 	      </div>
 	      <div class="modal-footer">
-	      	<button type="submit" class="btn btn-primary">Add event</button> </form>
+	      	<button type="submit" class="btn btn-primary" id="addeventbutt">Add event</button> 
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
-	      </div>
+	      </div></form>
 	    </div>
 	  </div>
 	</div>
@@ -295,7 +282,7 @@
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 						<h3 class="modal-title">Event</h3>
 					</div>
-					<div class="modal-body" style="height: 300px">
+					<div class="modal-body">
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
