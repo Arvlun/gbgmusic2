@@ -5,22 +5,11 @@ Knappar(?)
 Ta bort onödiga saker
 Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
 
-
 Kolla så att alla checkboxar visar det de ska. 
-
-
-Search
-Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut nu
-
 
 Events
 Fixa facebook och spotify på modalen
 Lägga till fält för att skriva spotifylänk när man skapar nytt event?
-
-
->>>>>>> origin/master
-
-
 
 
 Kajsa:
