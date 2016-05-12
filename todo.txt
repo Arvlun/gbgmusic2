@@ -3,24 +3,26 @@ Göra footern grå?
 
 Knappar(?)
 Ta bort onödiga saker
-Gör allting till Engelska
 Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
 
 
-Kolla så att alla checkboxar visar det de ska. Techno fungerar exempelvis inte i dagsläget. 
+Kolla så att alla checkboxar visar det de ska. 
 
 
 Search
 Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut nu
 
 
-byta singer/songwriter till något
-
-
 Events
 Fixa facebook och spotify på modalen
+<<<<<<< HEAD
+Fixa så att titeln på modalen för events är bandnamne @ location
+=======
+
+Lägga till fält för att skriva spotifylänk när man skapar nytt event?
 
 
+>>>>>>> origin/master
 
 
 
