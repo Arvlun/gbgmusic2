@@ -19,6 +19,8 @@ byta singer/songwriter till något
 Events
 Fixa facebook och spotify på modalen
 
+Lägga till fält för att skriva spotifylänk när man skapar nytt event?
+
 
 
 
