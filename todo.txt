@@ -15,10 +15,6 @@ Fixa sökresultat (i modal) <- typ? vet inte hur viktigt det är... ser halv ok ut
 
 Events
 Fixa facebook och spotify på modalen
-<<<<<<< HEAD
-Fixa så att titeln på modalen för events är bandnamne @ location
-=======
-
 Lägga till fält för att skriva spotifylänk när man skapar nytt event?
 
 
@@ -56,8 +52,5 @@ Arvid L:
 -------------------------------------------------------------------------
 KANSKE
 ...................................
-
-Fixa dayview (Kanske)
 lägga till så att man kan söka på location
 lägg till ändra funktion 
-Eventuellt göra så att filterfunktionen automatiskt uppdateras när man klickar i en checkbox/genre
