@@ -1251,6 +1251,10 @@ if(!String.prototype.formatNum) {
 		});
 	};
 
+	function getModalTitle(event) {
+		return "testsmest";
+	}
+
 	Calendar.prototype._update_day = function() {
 		$('#cal-day-panel').height($('#cal-day-panel-hour').height());
 	};
