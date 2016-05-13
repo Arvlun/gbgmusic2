@@ -12,7 +12,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h3 class="modal-title" id="event-modal-title"><%= event.title %></h3>
-</div>
+</div><br>
 <div id = "event-meta">
     <div class="container-fluid">
     <div class="row">
@@ -78,7 +78,12 @@
 </div>
 
 <div style = "margin: 10px 0">
-<form action="deleteevent.php" method="post">
-	<input type="hidden" value="<%= event.id %>" name="delbut">
-    <input type="submit" class="btn btn-primary pull-right"  value="Delete Event"></form>
+
+
+</div>
+<div class="modal-footer">
+    <form action="deleteevent.php" method="post">
+        <input type="hidden" value="<%= event.id %>" name="delbut">
+        <input type="submit" class="btn btn-primary pull-left"  value="Delete Event"></form>
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 </div>
