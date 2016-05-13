@@ -10,7 +10,7 @@ var main = function() {
         $('.status-box').keyup(function(){
             var postLength = $(this).val().length;
             var charactersLeft = 250-postLength;
-            
+
             $('.counter').text(charactersLeft);
 
             if(charactersLeft < 0){
