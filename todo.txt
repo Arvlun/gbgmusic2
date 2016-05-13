@@ -6,6 +6,7 @@ Ta bort onödiga saker
 Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
 Flytta ner about och gör om till en länk
 Längre text i description
+lägga till en tom like-knapp för events
 
 Kolla så att alla checkboxar visar det de ska. 
 
