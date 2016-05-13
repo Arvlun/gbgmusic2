@@ -2,6 +2,10 @@
 	event.date_end = new Date(parseInt(event.end));
     genrelow = event.class.substring(6);
     genrecap = genrelow.charAt(0).toUpperCase() + genrelow.slice(1) %>
+<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 class="modal-title" id="event-modal-title"><%= event.title %></h3>
+</div>
 <div id = "event-meta">
     <div class="container-fluid">
     <div class="row">

@@ -108,7 +108,7 @@ if(!String.prototype.formatNum) {
 		//	modal handling setting, one of "iframe", "ajax" or "template"
 		modal_type: "template",
 		//	function to set modal title, will be passed the event as a parameter
-		modal_title: function(event) { return event.title },
+		modal_title: null,
 		views: {
 			year: {
 				slide_events: 1,
