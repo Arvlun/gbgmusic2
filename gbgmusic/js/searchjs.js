@@ -6,7 +6,7 @@ $(function () {
 
 if(sfield=='')
 {
-  window.alert("TOMT SÖKFÄLT");
+  //window.alert("TOMT SÖKFÄLT");
 }
 else
 {

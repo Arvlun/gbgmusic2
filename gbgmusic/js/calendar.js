@@ -108,7 +108,7 @@ if(!String.prototype.formatNum) {
 		//	modal handling setting, one of "iframe", "ajax" or "template"
 		modal_type: "template",
 		//	function to set modal title, will be passed the event as a parameter
-		modal_title: null,
+		modal_title: function(event) { return event.title },
 		views: {
 			year: {
 				slide_events: 1,
@@ -1236,7 +1236,7 @@ if(!String.prototype.formatNum) {
 
 						//	set the title of the bootstrap modal
 						if(_.isFunction(self.options.modal_title)) {
-							modal.find(".modal-title").html(self.options.modal_title(event));
+							modal.find("#event-modal-title").html(self.options.modal_title(event));
 						}
 					})
 					.on('shown.bs.modal', function() {
@@ -1250,10 +1250,6 @@ if(!String.prototype.formatNum) {
 			modal.modal('show');
 		});
 	};
-
-	function getModalTitle(event) {
-		return "testsmest";
-	}
 
 	Calendar.prototype._update_day = function() {
 		$('#cal-day-panel').height($('#cal-day-panel-hour').height());
