@@ -4,16 +4,19 @@ Göra footern grå?
 Knappar(?)
 Ta bort onödiga saker
 Anpassa de olika viewen. <--- om ni menar med checkboxarna är det löst
+Flytta ner about och gör om till en länk
+Längre text i description
 
 Kolla så att alla checkboxar visar det de ska. 
 
 Events
 Fixa facebook och spotify på modalen
 Lägga till fält för att skriva spotifylänk när man skapar nytt event?
+Sätta constraints. Namn, plats och datum måste vara ifyllt. 
 
 
 Kajsa:
-Fixa färger för alla genres.
+Fixa så att färgerna inte är lika varandra. 
 Genrer:
 house 				_check_
 Hårdrock 			_check_
