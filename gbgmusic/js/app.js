@@ -49,6 +49,13 @@
 		});
 	});
 
+	$('#aboutbutton').each(function() {
+		var $this = $(this);
+		$this.click(function() {
+			calendar.view($this.data('calendar-view'));
+		});
+	});
+
 	/*$('#reloadGenre').click(function() {
 		var genreFilter = {
 			"class": ["event-warning", "event-succes"]

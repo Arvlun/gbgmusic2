@@ -900,7 +900,7 @@ if(!String.prototype.formatNum) {
 				return this.locale.title_week.format(p.getWeek(getExtentedOption(this, 'week_numbers_iso_8601')), p.getFullYear());
 				break;
 			case 'day':
-				return this.locale.title_day.format(this.locale['d' + p.getDay()], p.getDate(), this.locale['m' + p.getMonth()], p.getFullYear());
+				return "About"; // this.locale.title_day.format(this.locale['d' + p.getDay()], p.getDate(), this.locale['m' + p.getMonth()], p.getFullYear()) <- om datum sakll visas igen
 				break;
 		}
 		return;
