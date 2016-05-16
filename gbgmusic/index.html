@@ -25,18 +25,25 @@
 		</div>
 
 		<div class="page-header">
-			
+			<div class="pull-right">
+				<form class="form-search" role="search">
+					<div class="form-group">
+						<input type="text" id="sfield" placeholder="Search for a band" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search for band'">
+					</div>
+					<input name="submit" class="btn btn-default" id="submit" type="submit" value="Search" id="searchbutton">
+				</form>
+			</div><br><br>
 			<div class="pull-right form-inline">
 
-				<!-- Button trigger modal -->
-				<div class="btn-group">
+				<!-- Button trigger modal 
+				<div class="btn-group">-->
 	<button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalSearch" id="sButton">
 	  Search
 	</button>
 	<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
 	  Add event
 	</button>
-	</div>
+	<!--</div>-->
 
 
 	<!-- Modal -->
@@ -114,9 +121,9 @@
 				</div>
 				<div class="btn-group">
 					<button class="btn btn-default" data-calendar-view="year">Year</button>
-					<button class="btn btn-default active" data-calendar-view="month">Month</button>
-					<button class="btn btn-default" data-calendar-view="week">Week</button>
-					<!--<button class="btn btn-default" data-calendar-view="day">Day</button>-->
+					<button class="btn btn-default active" data-calendar-view="month">Month </button>
+					<!--<button class="btn btn-default" data-calendar-view="week">Week</button>
+					<button class="btn btn-default" data-calendar-view="day">Day</button>-->
 				</div>
 			</div>
 
