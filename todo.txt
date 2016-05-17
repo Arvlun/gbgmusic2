@@ -1,11 +1,7 @@
-Kolla så att alla checkboxar visar det de ska. 
-
-Search knapp och search modal
-
 
 Events
-Fixa facebook och spotify på modalen
-Lägga till fält för att skriva spotifylänk när man skapar nytt event?
+Fixa facebook och spotify på modalen <- facebook funkar bara första gången
+Lägga till fält för att skriva spotifylänk när man skapar nytt event? <- yes/no?
 
 
 -------------------------------------------------------------------------

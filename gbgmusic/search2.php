@@ -21,6 +21,9 @@ $sresultband = array_filter($data['result'], function($data) use ($searchterm) {
   return $data['bandname'] == $searchterm;
 });
 //&nbsp;&nbsp;
+if ( empty($sresultband)) {
+	echo "No bands listed with that name";
+} else {
 foreach($sresultband as $r) {
       $timestart = "@".substr($r['start'], 0, -3);
       $startdate = new Datetime($timestart);
@@ -34,6 +37,6 @@ foreach($sresultband as $r) {
 }
 
 
-
+}
 
 ?>

@@ -1,12 +1,13 @@
 $(function () {
-  $("#submit").click(function() {
+  $("#searchbutton").click(function() {
     //window.alert("TOMT");
   var sfield = $("#sfield").val();
   var dataString = 'sfield='+ sfield;
 
 if(sfield=='')
 {
-  //window.alert("TOMT SÖKFÄLT");
+  $("#results").append("Type in a bandname");
+  $('#modalSearch').modal('show'); 
 }
 else
 {
@@ -22,6 +23,7 @@ else
         //window.alert("fetl");
         $("#results").show();
         $("#results").append(response);
+        $('#modalSearch').modal('show'); 
         //window.alert(response);
         //$('table#resultTable tbody').html(response);
     }
