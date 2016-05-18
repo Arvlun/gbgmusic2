@@ -49,11 +49,9 @@
 		});
 	});
 
-<<<<<<< Updated upstream
+
 	$('#aboutbutton').each(function() {
-=======
-	$('#aboutknapp').each(function() {
->>>>>>> Stashed changes
+
 		var $this = $(this);
 		$this.click(function() {
 			calendar.view($this.data('calendar-view'));
