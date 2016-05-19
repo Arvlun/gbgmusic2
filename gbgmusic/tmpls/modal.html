@@ -60,15 +60,24 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="col-xs-12">
-                            <b>Description:</b>
+                        <td class="col-xs-2">
+                            <b>Website:</b> 
+                        </td>
+                        <td class="col-xs-10">
+                            <a href="<%= event.url %>"><%= event.url %></a>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="col-xs-12" style="word-wrap: break-word;">
+                        <td colspan="2" class="col-xs-12">
+                            <b>Description:</b><br>
                             <span><p><%= event.description %></p></span>
                         </td>
                     </tr>
+                    <!--<tr>
+                        <td colspan="2" class="col-xs-12" style="word-wrap: break-word;">
+                            <span><p><%= event.description %></p></span>
+                        </td>
+                    </tr>-->
                 </tbody>
             </table>
         </div>
