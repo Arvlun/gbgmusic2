@@ -24,7 +24,7 @@
 
 
 .hardrock .circle {
-	background-color: orange;
+	background-color: #999966;
 }
 
 .rock .circle {
@@ -52,7 +52,7 @@
 }
 
 .electronic .circle {
-	background-color: #008000;
+	background-color: #66ffff;
 }
 
 .country .circle {

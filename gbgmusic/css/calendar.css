@@ -322,7 +322,7 @@
   border: 1px solid #663300;
 }
 #cal-day-box .day-highlight.dh-event-electronic {
-  border: 1px solid #008000;
+  border: 1px solid #66ffff;
 }
 #cal-day-box .day-highlight.dh-event-jazz {
   border: 1px solid #ff0000;
@@ -400,7 +400,7 @@
   background-color: #e59400;
 }
 .event-electronic {
-  background-color: #008000;
+  background-color: #66ffff;
 }
 .event-hiphop {
   background-color: #663300;
