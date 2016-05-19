@@ -1,12 +1,6 @@
 
 Events
 Fixa facebook och spotify på modalen <- facebook funkar bara första gången
-Lägga till fält för att skriva spotifylänk när man skapar nytt event? <- yes/no?
-
-Description bör inte ha någon ram
-
-fixa så att hemsidan syns när man trycker på ett event. 
-
 Fixa färgerna lite grann (Kajsa)
 
 -------------------------------------------------------------------------
