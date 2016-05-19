@@ -46,6 +46,7 @@
 		var $this = $(this);
 		$this.click(function() {
 			calendar.view($this.data('calendar-view'));
+			$("#checkboxbox").show();
 		});
 	});
 
@@ -55,6 +56,7 @@
 		var $this = $(this);
 		$this.click(function() {
 			calendar.view($this.data('calendar-view'));
+			$("#checkboxbox").hide();
 		});
 	});
 
