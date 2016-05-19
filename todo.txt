@@ -3,6 +3,8 @@ Events
 Fixa facebook och spotify på modalen <- facebook funkar bara första gången
 Fixa färgerna lite grann (Kajsa)
 
+Så att checkboxen inte syns på about
+
 -------------------------------------------------------------------------
 KANSKE
 ...................................
