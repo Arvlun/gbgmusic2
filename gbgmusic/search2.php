@@ -30,8 +30,12 @@ foreach($sresultband as $r) {
       $startdate->setTimeZone(new DateTimeZone('Europe/Stockholm'));
       $genre = substr($r['class'], 6);
       $genre = ucwords($genre);
-      echo '<div class="well well-sm">';
-      echo "<b>Bandname:</b> ".$r['bandname']."<br><b>Genre:</b> ".$genre."<br> <b>Location:</b> ".$r['location']."<br> <b>Price:</b> ".$r['price']." SEK<br> <b>Tid:</b> ".$startdate->format('Y-m-d H:i')."<br> <b>Description: </b>".$r['description']."";
+      echo '<div class="well well-sm clearfix">';
+      echo "<b>Bandname:</b> ".$r['bandname']."<br>";
+      echo "<b>Genre:</b> ".$genre."<br> <b>Location:</b> ".$r['location']."<br> <b>Price:</b> ".$r['price']." SEK<br> <b>Tid:</b> ".$startdate->format('Y-m-d H:i')."<br> <b>Description: </b>".$r['description']."<br>";
+      echo '<br><form action="deleteevent.php" method="post">';
+      echo '<input type="hidden" value="'.$r['id'].'" name="delbut">';
+      echo '<input type="submit" class="pull-left" value="Delete Event"></form>';
    	  echo "</div>";
 
 }
