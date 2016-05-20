@@ -36,6 +36,7 @@ foreach($sresultband as $r) {
       echo '<br><form action="deleteevent.php" method="post">';
       echo '<input type="hidden" value="'.$r['id'].'" name="delbut">';
       echo '<input type="submit" class="pull-left" value="Delete Event"></form>';
+      echo '<Button class="pull-left">Update Event</button>';
    	  echo "</div>";
 
 }
